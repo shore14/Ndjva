@@ -8,6 +8,18 @@
 </head>
 <body>
     <h1>Postage Calculator</h1>
-    
+    <div class="container">
+    <form action="getPrice" method="GET">
+            Choose your type of Mail:
+           <select name="mailtype">
+               <option value="letters">Letters (Stamped)</option>
+               <option value="letterm">Letters (Metered)</option>
+               <option value="largenvelope">Large Envelopes (Flats)</option>
+               <option value="firstClass">First-Class Package Service-Retail</option>
+           </select> 
+       </br>
+           <input type="submit" value="Shoot">
+        </form>
+    </div>
 </body>
 </html>
