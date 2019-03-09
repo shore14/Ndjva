@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="csstyle/calc.css">
     <title>Calculator</title>
 </head>
 <body>
-    <h1>Postage Calculator</h1>
     <div class="container">
-    <form action="getPrice" method="GET">
+    <h1>Postage Calculator</h1>
+    <form action="getPrice" method="GET" class="content">
             Choose your type of Mail:
            <select name="mailtype">
                <option value="letters">Letters (Stamped)</option>
@@ -17,8 +18,10 @@
                <option value="largenvelope">Large Envelopes (Flats)</option>
                <option value="firstClass">First-Class Package Service-Retail</option>
            </select> 
+           <h2>Please tell us how much your mail weighs</h2></br>
+           <input type="text" name="weight"></br>
        </br>
-           <input type="submit" value="Shoot">
+           <input type="submit" value="Get Rates">
         </form>
     </div>
 </body>

@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid black;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 30px;
+    width: 700px;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
